@@ -1,6 +1,6 @@
 # Albert-zh for pytorch-transformers
 - 僅僅是基於**參考**進行轉換而已
-- Albert zh for pytorch-transformers
+- Albert zh for [pytorch-transformers](https://github.com/huggingface/transformers)
 - 測試支援繁體中文
 - 轉換好的模型請見[release](https://github.com/p208p2002/albert-zh-convert-testing/releases)
 - 用法參見`test.py`
