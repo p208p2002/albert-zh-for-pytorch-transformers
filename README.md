@@ -6,7 +6,7 @@
 - 轉換好的模型請見[release](https://github.com/p208p2002/albert-zh-convert-testing/releases)
 
 ## 問題
-可能會遭遇到訓練時模型亂印東西，用請用log代替print
+可能會遭遇到訓練時模型亂印東西。請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
 ```python
 import os,sys
 def log(*logs):
