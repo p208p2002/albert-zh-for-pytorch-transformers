@@ -3,15 +3,13 @@
 - Albert zh for pytorch-transformers
 - 測試支援繁體中文
 - 轉換好的模型請見[release](https://github.com/p208p2002/albert-zh-convert-testing/releases)
+- 用法參見`test.py`
 
 ## 可用模型 
 - albert_tiny_zh
 - albert_base_zh
 - albert_large_zh
 - albert_xlarge_zh
-
-## 使用
-參見`test.py`
 
 ## 問題
 可能會遭遇到訓練時模型亂印東西。請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
@@ -41,4 +39,3 @@ def enablePrint():
 - https://github.com/brightmart/albert_zh
 ### albert tf to pytorch
 - https://github.com/lonePatient/albert_pytorch
-
