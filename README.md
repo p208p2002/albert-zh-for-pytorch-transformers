@@ -1,7 +1,9 @@
 
-# Albert zh 測試
-- 包含了一個Albert-zh-tiny 轉換結果
+# Albert zh 轉換測試
+- Albert zh for pytorch-transformers
 - 測試支援繁體中文
+- 轉換好的模型請見(release)[https://github.com/p208p2002/albert-zh-convert-testing/releases]
+## 參考
 ### albert zh
 - https://github.com/brightmart/albert_zh
 ### albert tf to torch
