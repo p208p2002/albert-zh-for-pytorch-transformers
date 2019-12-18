@@ -8,5 +8,5 @@
 ## 參考
 ### albert zh
 - https://github.com/brightmart/albert_zh
-### albert tf to torch
+### albert tf to pytorch
 - https://github.com/lonePatient/albert_pytorch
