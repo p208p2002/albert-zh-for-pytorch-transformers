@@ -7,7 +7,7 @@
 
 ## 問題
 可能會遭遇到訓練時模型亂印東西，用請用log代替print
-```
+```python
 import os,sys
 def log(*logs):
     enablePrint()
