@@ -1,4 +1,4 @@
-# Albert zh 轉換測試
+# Albert-zh for pytorch-transformers
 - 僅僅是基於"參考"進行轉換而已
 - Albert zh for pytorch-transformers
 - 測試支援繁體中文
@@ -9,6 +9,9 @@
 - albert_base_zh
 - albert_large_zh
 - albert_xlarge_zh
+
+## 使用
+參見`test.py`
 
 ## 問題
 可能會遭遇到訓練時模型亂印東西。請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
