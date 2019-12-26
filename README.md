@@ -5,6 +5,9 @@
 - 轉換好的模型請見[release](https://github.com/p208p2002/albert-zh-convert-testing/releases)
 - 用法參見`test.py`
 
+## 使用方法
+[見此issue 4樓](https://github.com/lonePatient/albert_pytorch/issues/35)
+
 ## 可用模型 
 - albert_tiny_zh
 - albert_base_zh
