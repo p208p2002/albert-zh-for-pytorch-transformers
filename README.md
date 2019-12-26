@@ -6,10 +6,10 @@
 - 詳細用法參見`usage_example.py`
 
 ## 可用模型 
-- albert_tiny_zh
-- albert_base_zh
-- albert_large_zh
-- albert_xlarge_zh
+- [albert_tiny_zh](https://github.com/p208p2002/albert-zh-for-pytorch-transformers/releases/download/am_v1.1/albert_tiny.zip)
+- [albert_base_zh](https://github.com/p208p2002/albert-zh-for-pytorch-transformers/releases/download/am_v1.1/albert_base.zip)
+- [albert_large_zh](https://github.com/p208p2002/albert-zh-for-pytorch-transformers/releases/download/am_v1.1/albert_large.zip)
+- [albert_xlarge_zh](albert_xlarge_zh)
 
 ## 常見問題
 #### AttributeError: 'BertConfig' object has no attribute 'share_type'
