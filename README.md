@@ -12,10 +12,11 @@
 - albert_xlarge_zh
 
 ## 問題
-- AttributeError: 'BertConfig' object has no attribute 'share_type'
+#### AttributeError: 'BertConfig' object has no attribute 'share_type'
 config.json增加`"share_type":"all"`
 
-- 可能會遭遇到訓練時模型亂印東西。請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
+#### 訓練時模型亂印東西
+請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
 ```python
 import os,sys
 def log(*logs):
