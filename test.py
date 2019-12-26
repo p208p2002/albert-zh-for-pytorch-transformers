@@ -1,7 +1,7 @@
-from transformers import AlbertConfig, AlbertForSequenceClassification, BertTokenizer
+from albert_zh import AlbertConfig,AlbertForSequenceClassification,AlbertTokenizer
 import torch
 if __name__ == "__main__":
-    tokenizer = BertTokenizer.from_pretrained('albert_tiny/vocab.txt')
+    tokenizer = AlbertTokenizer.from_pretrained('albert_tiny/vocab.txt')
     model_config = AlbertConfig.from_json_file('albert_tiny/albert_config_tiny.json')
     model = AlbertForSequenceClassification.from_pretrained('albert_tiny/albert_tiny_torch.bin',config = model_config)
 

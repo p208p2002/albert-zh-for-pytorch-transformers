@@ -5,9 +5,6 @@
 - 轉換好的模型請見[release](https://github.com/p208p2002/albert-zh-convert-testing/releases)
 - 用法參見`test.py`
 
-## 使用方法
-[見此issue 4樓](https://github.com/lonePatient/albert_pytorch/issues/35)
-
 ## 可用模型 
 - albert_tiny_zh
 - albert_base_zh
@@ -15,7 +12,10 @@
 - albert_xlarge_zh
 
 ## 問題
-可能會遭遇到訓練時模型亂印東西。請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
+- AttributeError: 'BertConfig' object has no attribute 'share_type'
+config.json增加`"share_type":"all"`
+
+- 可能會遭遇到訓練時模型亂印東西。請用`log()`代替`print()`，並且在程式開始的時候先執行一次`blockPrint()`
 ```python
 import os,sys
 def log(*logs):
@@ -36,7 +36,7 @@ def enablePrint():
 - python 3.6.4
 - pyotrch 1.3 (with cuda 10)
 - transformers 2.3.0
-> 使用 albert-base 在台達電閱讀理解資料集得到f1 score: 82.0375
+> 使用 albert-base 在[台達電閱讀理解資料集](https://github.com/DRCKnowledgeTeam/DRCD)得到f1 score: 82.0375
 
 ## 參考
 ### albert zh
