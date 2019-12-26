@@ -3,7 +3,7 @@
 - Albert zh for [pytorch-transformers](https://github.com/huggingface/transformers)
 - 測試支援繁體中文
 - 轉換好的模型請見[release](https://github.com/p208p2002/albert-zh-convert-testing/releases)
-- 用法參見`test.py`
+- 詳細用法參見`usage_example.py`
 
 ## 可用模型 
 - albert_tiny_zh
@@ -11,7 +11,7 @@
 - albert_large_zh
 - albert_xlarge_zh
 
-## 問題
+## 常見問題
 #### AttributeError: 'BertConfig' object has no attribute 'share_type'
 config.json增加`"share_type":"all"`
 
