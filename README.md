@@ -36,8 +36,7 @@ def enablePrint():
 - python 3.6.4
 - pyotrch 1.3 (with cuda 10)
 - transformers 2.3.0
-> 使用 albert-base 在台達電閱讀理解資料集
-> 得到f1 score: 82.0375
+> 使用 albert-base 在台達電閱讀理解資料集得到f1 score: 82.0375
 
 ## 參考
 ### albert zh
