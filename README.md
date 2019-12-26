@@ -35,7 +35,8 @@ def enablePrint():
 ## 測試環境
 - python 3.6.4
 - pyotrch 1.3 (with cuda 10)
-- transformers 2.2.2
+- transformers 2.3.0
+> 在台達電閱讀理解得到f1 score: 82.0375
 
 ## 參考
 ### albert zh
