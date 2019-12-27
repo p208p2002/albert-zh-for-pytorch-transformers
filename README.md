@@ -22,15 +22,14 @@ AlbertForSequenceClassification
 > https://huggingface.co/transformers/v2.3.0/model_doc/albert.html
 
 ## 使用方法
-- 除 model class、model config 改由 albert_zh 引入外，其餘可續用 transformers
-> https://github.com/lonePatient/albert_pytorch/issues/35
+- 請參見`usage_example.py`
 - 測試在 transformers 2.3.0 正常運作
 > 使用 albert-base 在[台達電閱讀理解資料集](https://github.com/DRCKnowledgeTeam/DRCD)得到f1 score: 82.0375
-- 詳細用法參見`usage_example.py`
 
 ## 常見問題
 #### loss 降不下來，訓練出來變垃圾
 確保 model class 與 model config 由 albert_zh 引入，而非 transformers
+> https://github.com/lonePatient/albert_pytorch/issues/35
 
 #### AttributeError: 'BertConfig' object has no attribute 'share_type'
 config.json增加`"share_type":"all"`
