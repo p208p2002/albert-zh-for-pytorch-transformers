@@ -11,6 +11,7 @@
 
 ## 使用方法
 - 除 model class、model config 改由 albert_zh 引入外，其餘可續用transformers
+> https://github.com/lonePatient/albert_pytorch/issues/35
 - 測試在 transformers 2.3.0 正常運作
 > 使用 albert-base 在[台達電閱讀理解資料集](https://github.com/DRCKnowledgeTeam/DRCD)得到f1 score: 82.0375
 - 詳細用法參見`usage_example.py`
