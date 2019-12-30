@@ -24,7 +24,6 @@ AlbertForSequenceClassification
 ## 使用方法
 - 請參見`usage_example.py`
 - 測試在 transformers 2.3.0 正常運作
-> 使用 albert-base 在[台達電閱讀理解資料集](https://github.com/DRCKnowledgeTeam/DRCD)得到f1 score: 82.0375
 
 ## 常見問題
 #### loss 降不下來，訓練出來變垃圾
