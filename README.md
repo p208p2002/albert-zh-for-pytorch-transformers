@@ -11,6 +11,7 @@
 
 ## API
 先將本repo中的`albert_zh`放置在你的專案底下
+
 `from albert_zh import ...`
 ```
 AlbertConfig
