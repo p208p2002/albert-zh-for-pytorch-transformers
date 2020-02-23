@@ -10,6 +10,7 @@
 - [albert_xlarge_zh](https://github.com/p208p2002/albert-zh-for-pytorch-transformers/releases/download/am_v1.1/albert_xlarge.zip)
 
 ## API
+先將本repo中的`albert_zh`放置在你的專案底下
 `from albert_zh import ...`
 ```
 AlbertConfig
