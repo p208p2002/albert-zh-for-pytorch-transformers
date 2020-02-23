@@ -23,6 +23,7 @@ AlbertForSequenceClassification
 
 ## 使用方法
 - 請參見`usage_example.py`
+    > 或是參考[p208p2002/taipei-QA-BERT](https://github.com/p208p2002/taipei-QA-BERT)的實際使用範例
 - 測試在 transformers 2.3.0 正常運作
 
 ## 常見問題
