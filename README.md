@@ -29,6 +29,14 @@ AlbertForSequenceClassification
 - 測試在 transformers 2.3.0 正常運作
 
 ## 常見問題
+#### 我想在jupyter、colab引入但是遇到問題
+這個repo命名不符合python module命名慣例，並且jupyter本身對自訂的模組沒有很好的支援，請先參考下方的解決範例。後續考慮推上pypi
+```jupyter
+!git clone https://github.com/p208p2002/albert-zh-for-pytorch-transformers.git albert
+import sys 
+sys.path.append('.')
+from albert.albert_zh import AlbertConfig, AlbertTokenizer, AlbertForSequenceClassification
+```
 #### loss 降不下來，訓練出來變垃圾
 確保 model class 與 model config 由 albert_zh 引入，而非 transformers
 > https://github.com/lonePatient/albert_pytorch/issues/35
