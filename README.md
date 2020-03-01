@@ -32,6 +32,7 @@ AlbertForSequenceClassification
 #### 我想在jupyter、colab引入但是遇到問題
 這個repo命名不符合python module命名慣例，並且jupyter本身對自訂的模組沒有很好的支援，請先參考下方的解決範例。後續考慮推上pypi
 ```jupyter
+# 此段code僅適用於jupyter、colab。*.py請自行clone
 !git clone https://github.com/p208p2002/albert-zh-for-pytorch-transformers.git albert
 import sys 
 sys.path.append('.')
