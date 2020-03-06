@@ -1,7 +1,8 @@
 # 原參考作者現已提供模型下載與測試結果
 https://github.com/lonePatient/albert_pytorch/blob/master/README_zh.md
 
-# Albert-zh for pytorch-transformers(停止更新)
+# Albert-zh for pytorch-transformers
+- **停止更新**
 - 僅僅是基於**參考**進行轉換，然後踩踩雷
 - Albert zh for [pytorch-transformers](https://github.com/huggingface/transformers)
 - 測試支援繁體中文
